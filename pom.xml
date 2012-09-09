@@ -6,12 +6,25 @@
   <packaging>jar</packaging>
   <version>1.0.0</version>
   <name>mfz-util</name>
+  <description>Common java utilities for mfizz projects</description>
+  <url>http://code.google.com/p/mfz-util/</url>
   
   <parent>
     <groupId>com.mfizz</groupId>
     <artifactId>mfz-maven-parent</artifactId>
-    <version>1.2</version>
+    <version>1.3</version>
   </parent>
+  
+  <scm>
+    <url>http://code.google.com/p/mfz-util/source/browse/</url>
+    <connection>scm:git:https://code.google.com/p/mfz-util/</connection>
+  </scm>
+  
+  <developers>
+      <developer>
+          <email>joe@mfizz.com</email>
+      </developer>
+  </developers>
 
   <dependencies>
     <dependency>
