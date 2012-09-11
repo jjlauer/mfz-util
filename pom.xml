@@ -4,7 +4,7 @@
   <groupId>com.mfizz</groupId>
   <artifactId>mfz-util</artifactId>
   <packaging>jar</packaging>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <name>mfz-util</name>
   <description>Common java utilities for mfizz projects</description>
   <url>http://code.google.com/p/mfz-util/</url>
