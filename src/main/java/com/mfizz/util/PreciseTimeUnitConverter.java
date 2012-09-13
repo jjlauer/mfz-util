@@ -24,7 +24,6 @@ import java.util.concurrent.TimeUnit;
 
 /**
  *
- * @author joe@mfizz.com
  */
 public class PreciseTimeUnitConverter {
     

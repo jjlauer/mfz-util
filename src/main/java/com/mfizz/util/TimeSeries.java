@@ -26,8 +26,6 @@ import java.util.Iterator;
 
 /**
  * Most recent items on front of linked-list and oldest at back.
- * 
- * @author joe@mfizz.com
  */
 public class TimeSeries<V extends Timestamped> {
     

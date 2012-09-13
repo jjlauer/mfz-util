@@ -2,7 +2,7 @@ package com.mfizz.util;
 
 /*
  * #%L
- * mfizz-util
+ * mfz-util
  * %%
  * Copyright (C) 2012 mfizz
  * %%
@@ -21,10 +21,24 @@ package com.mfizz.util;
  */
 
 /**
- *
+ * 
  */
-public interface Timestamped {
-    
-    public long getTimestamp();
-    
+public class FileUtil {
+    /**
+     * Parse the filename and return the file extension.
+     */
+    public static String parseFileExtension(String filename) {
+        // if null, return null
+        if (filename == null) {
+            return null;
+        }
+        // find position of last period
+        int pos = filename.lastIndexOf('.');
+        // did one exist or have any length?
+        if (pos < 0 || (pos+1) >= filename.length()) {
+            return null;
+        }
+        // parse extension
+        return filename.substring(pos+1);
+    }
 }

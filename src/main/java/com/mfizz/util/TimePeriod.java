@@ -22,7 +22,6 @@ package com.mfizz.util;
 
 /**
  *
- * @author joe@mfizz.com
  */
 public interface TimePeriod extends Timestamped {
     
